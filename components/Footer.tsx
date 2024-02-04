@@ -33,8 +33,8 @@ const Footer: FC<FooterProps> = (props: FooterProps) => {
                         </Link>
                     </div>
                     <ul className="flex flex-col md:flex-row py-4 md:py-0">
-                        {footerSocials.map(item => (
-                            <li className="px-1 sm:px-1 flex flex-row ">
+                        {footerSocials.map((item, key) => (
+                            <li  key={key} className="px-1 sm:px-1 flex flex-row ">
                                 <Link href={item.href}>
                                     <span className='hidden md:inline-block'><FontAwesomeIcon icon={item.favIcon} className='hidden' /></span> <span className="mr-4 ml-1">{item.title}</span>
                                 </Link>

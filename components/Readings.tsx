@@ -19,8 +19,8 @@ export function Readings() {
                     </span>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-16" >
-                    {readings.map(item=>(
-                    <div className="flex flex-col justify-between border-teal-300 border-2 px-8 py-8">
+                    {readings.map((item, index)=>(
+                    <div key={index} className="flex flex-col justify-between border-teal-300 border-2 px-8 py-8">
                         <div>
                             <h2 className="text-xl font-bold">{item.title}</h2>
                             <p className=" mt-4">

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export function StaticContents() {
   return (
@@ -15,18 +16,20 @@ export function StaticContents() {
             <div className="mt-10 sm:mt-12">
               <div>
                 <div className="flex justify-center lg:justify-start">
-                  <a
-                    href="/showcases"
+                  <Link href="/showcases">
+                  <span
                     className="block w-36 mr-8 flex justify-center rounded-md bg-teal-400 px-4 py-3 font-medium text-slate-50 shadow hover:text-slate-800"
                   >
                     Showcase
-                  </a>
-                  <a
-                    href="/about-idms"
+                  </span>
+                  </Link>
+                  <Link href="/about-idms">
+                  <span
                     className="block w-36 flex justify-center rounded-md bg-neutral-900 px-4 py-3 font-medium text-slate-50 shadow hover:bg-neutral-800 hover:text-slate "
                   >
                     Learn More
-                  </a>
+                  </span>
+                  </Link>
                 </div>
               </div>
 
@@ -48,9 +51,11 @@ export function StaticContents() {
               <p className="mt-2 text-gray-600 text-lg mb-4">
                 IDMS is a comprehensive and interoperable digital platform meticulously designed to facilitate seamless inter-governmental data sharing and the efficient dissemination of valuable data in the public domain, adhering to the FAIR principles.
               </p>
-              <a href="#" className="text-teal-600 hover:text-teal-700 font-medium block mt-4">
+              <Link href="#" >
+              <span className="text-teal-600 hover:text-teal-700 font-medium block mt-4">
                 Learn More →
-              </a>
+              </span>
+              </Link>
             </div>
           </div>
         </div>
@@ -255,12 +260,13 @@ export function StaticContents() {
         </div>
         <div className="mx-auto max-w-screen-xl">
           <div className=" px-8 flex justify-end">
-            <a
+            <Link href="/showcases">
+            <span
               className="bottom-24 relative block w-36 mr-8 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-100"
-              href="/showcases"
             >
               See All
-            </a>
+            </span>
+            </Link>
           </div>
         </div>
       </div>

@@ -42,11 +42,11 @@ export function Nav() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [modifierKey, setModifierKey] = useState();
 
-  useEffect(() => {
-    setModifierKey(
-      /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform) ? "⌘" : "Ctrl "
-    );
-  }, []);
+  // useEffect(() => {
+  //   setModifierKey(
+  //     /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform) ? "⌘" : "Ctrl "
+  //   );
+  // }, []);
 
   useEffect(() => {
     function onScroll() {
@@ -55,7 +55,7 @@ export function Nav() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
-      window.removeEventListener("scroll", onScroll, { passive: true });
+      window.removeEventListener("scroll", onScroll);
     };
   }, []);
 
@@ -76,11 +76,11 @@ export function Nav() {
         <div className="flex flex-none justify-between ">
           <NavbarTitle />
           <div className="hidden md:flex ml-8">
-            {navLinks.map((item) => (
-              <NavItem item={item} key={item.name} />
+            {navLinks.map((item, index) => (
+              <NavItem item={item} key={item.name || index} />
             ))}
           </div>
-        </div>
+      </div>
       </div>
     </header>
   );

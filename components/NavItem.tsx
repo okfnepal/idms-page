@@ -43,7 +43,7 @@ export function NavItem({ item }: NavItemProps) {
       >
         {Object.prototype.hasOwnProperty.call(item, "href") ? (
           <Link
-            href={item.href}
+            href={item.href || '/'}
             className="inline-flex items-center pl-8 pt-1 text-base font-medium hover:text-slate-600"
           >
             {item.name}
@@ -56,7 +56,7 @@ export function NavItem({ item }: NavItemProps) {
         {Object.prototype.hasOwnProperty.call(item, "subItems") ? <img src="/images/arrow-down.svg" alt="down arrow" className="inline" /> : null}
       </Menu.Button>
 
-      {Object.prototype.hasOwnProperty.call(item, "subItems") && (
+      {Array.isArray(item.subItems) && item.subItems.length > 0 && (
         <Transition
           as={Fragment}
           show={showDropdown}
@@ -75,10 +75,10 @@ export function NavItem({ item }: NavItemProps) {
             onMouseEnter={openDropdown}
             onMouseLeave={closeDropdown}
           >
-            {item.subItems.map((subItem) => (
+            {item.subItems.map((subItem, index) => (
               <Menu.Item
-                key={subItem.name}
-                onClick={() => setshowDropdown(false)}
+                key={subItem.name || index}
+                // onClick={() => setshowDropdown(false)}
               >
                 <BaseLink
                   href={subItem.href}
