@@ -73,8 +73,7 @@ export function StaticContents() {
                 </div>
               </div>
               <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
+                Digital systems generate valuable data for governments, public institutions, and citizens; however, the lack of a proper mechanism hampers their effective utilization.
               </p>
             </div>
             <div className="border-teal-300 border-2 px-8 py-8">
@@ -85,34 +84,31 @@ export function StaticContents() {
                 </div>
               </div>
               <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
+                The absence of interconnected systems leads to repetitive data input in individual systems, creating isolated data silos.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10" >
             <div className="border-teal-300 border-2 px-8 py-8">
               <div className="flex">
-                <img src="/images/standard.png"  width="36px" />
+                <img src="/images/standard.png" width="36px" />
                 <div className="flex my-auto">
                   <h2 className="text-xl font-bold ml-4">Lack of Data Standarization</h2>
                 </div>
               </div>
               <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
+                Datasets stored across different systems result in varied data and a lack of standardization.
               </p>
             </div>
             <div className="border-teal-300 border-2 px-8 py-8">
               <div className="flex">
-                <img src="/images/complex_data.png"  width="36x" />
+                <img src="/images/complex_data.png" width="36x" />
                 <div className="my-auto">
                   <h2 className="text-xl font-bold ml-4">Complex Data Utilization Mechanism</h2>
                 </div>
               </div>
               <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ad quasi
+                Current systems are inefficient in generating and providing data of public interest, contributing to a complex data utilization process.
               </p>
             </div>
           </div>
@@ -263,7 +259,7 @@ export function StaticContents() {
               className="bottom-24 relative block w-36 mr-8 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-100"
               href="/showcases"
             >
-              Show All
+              See All
             </a>
           </div>
         </div>
