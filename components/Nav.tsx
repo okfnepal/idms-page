@@ -69,11 +69,11 @@ export function Nav() {
         }
       `}
     >
-      <div className="mx-auto w-full md:px-8 max-w-screen-xl flex md:flex-col">
+      <div className="mx-auto w-full md:px-8 lg:px-0 xl:px-8 max-w-screen-xl flex md:flex-col">
         <div className="mr-2 sm:mr-4 flex md:hidden inline">
           <MobileNavigation navigation={navLinks} />
         </div>
-        <div className="flex flex-none justify-between ">
+        <div className="flex flex-none justify-between content-center">
           <NavbarTitle />
           <div className="hidden md:flex ml-8">
             {navLinks.map((item, index) => (

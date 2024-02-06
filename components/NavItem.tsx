@@ -69,7 +69,7 @@ export function NavItem({ item }: NavItemProps) {
         >
           <Menu.Items
             // className="absolute top-5 flex flex-col dark:bg-slate-900/95 backdrop-blur"
-            className="absolute w-28 top-5 flex flex-col mt-4 bg-white backdrop-blur"
+            className="absolute w-32 top-5 flex flex-col mt-4 bg-white shadow-sm drop-shadow-lg"
 
             ref={dropdownRef}
             onMouseEnter={openDropdown}
@@ -82,7 +82,7 @@ export function NavItem({ item }: NavItemProps) {
               >
                 <BaseLink
                   href={subItem.href}
-                  className="border-teal-300 border-t-2 flex pb-2 px-1 pt-1 text-sm font-medium hover:text-slate-600"
+                  className="border-teal-300 border-t-2 flex pb-2 px-1 pt-2 text-sm font-medium hover:text-slate-600"
                 >
                   <p className="mx-auto">
 

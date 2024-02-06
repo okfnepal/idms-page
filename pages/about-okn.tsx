@@ -2,6 +2,7 @@ import Head from "next/head";
 import { AboutOKN } from "../components/AboutOKN"
 import { Nav } from "../components/Nav";
 import Footer from '@/components/Footer';
+import { AboutIDMS } from "../components/AboutIDMS"
 
 
 export default function AbooutIDMS() {

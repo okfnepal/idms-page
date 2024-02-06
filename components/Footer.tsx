@@ -15,11 +15,10 @@ interface FooterProps extends HTMLDivProps {
     active?: string
 }
 const footerSocials = [
-    { title: "About", favIcon: faUsers, href: "/about-idms"},
-    { title: "Email", favIcon: faEnvelopeOpen, href: "/about-idms"},
-    { title: "Support", favIcon: faHeart, href: "/about-idms" },
-    { title: "Twitter/X", favIcon: faXTwitter, href: "/about-idms"},
-    { title: "Facebook", favIcon: faFacebookF, href: "/about-idms"}]
+    { title: "About", favIcon: faUsers, href: "/about-okn"},
+    { title: "Email", favIcon: faEnvelopeOpen, href: "https://oknp.org/contacts"},
+    { title: "Twitter/X", favIcon: faXTwitter, href: "https://twitter.com/okfn_np"},
+    { title: "Facebook", favIcon: faFacebookF, href: "https://www.facebook.com/okfnepal/"}]
 
 const Footer: FC<FooterProps> = (props: FooterProps) => {
     const { active, children, ...rest } = props
