@@ -53,6 +53,7 @@ export function StaticContents() {
               </h2>
               <p className="mt-2 text-gray-600 text-lg mb-4">
                 IDMS is a comprehensive and interoperable digital platform meticulously designed to facilitate seamless inter-governmental data sharing and the efficient dissemination of valuable data in the public domain, adhering to the FAIR principles.
+                IDMS ensures the fairness, accessibility, interoperability, and reusability of data, providing a robust framework for secure and transparent data management.
               </p>
               <Link href="/about-idms" >
                 <span className="text-teal-600 hover:text-teal-700 font-medium block mt-4">
