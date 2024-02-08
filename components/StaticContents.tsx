@@ -8,7 +8,7 @@ export function StaticContents() {
   return (
     <>
       <section className="lg:relative">
-        <div className=" font-archivo mx-auto w-full max-w-screen-xl grid grid-cols-12 pt-12 pb-20 text-center lg:text-left custom-bg">
+        <div className="font-archivo mx-auto w-full max-w-screen-xl grid grid-cols-12 pt-12 pb-20 text-center lg:text-left custom-bg">
           <div className="sm:px-8 xl:pr-0 mt-10 col-span-12 lg:col-span-6">
             <h1 className="my-10 text-2xl mr-8 font-headings font-bold tracking-tight text-primary xl:text-5xl flex flex-col leading-relax">
               Intervening Government’s Data Management
@@ -45,7 +45,7 @@ export function StaticContents() {
           </div>
         </div>
         {/* banner */}
-        <div className="relative md:w-9/12 2xl:max-w-screen-xl h-max rounded-2xl p-8 my-10 mx-auto">
+        <div className="relative md:w-11/12 lg:w-11/12 xl:w-10/12 2xl:w-9/12 2xl:max-w-screen-xl h-max rounded-2xl p-8 my-10 mx-auto">
           <div className="bg-neutral-200 rounded-xl shadow-lg">
             <div className="bg-teal-200 -translate-y-3 translate-x-3 rounded-xl rounded-br-3xl px-12 py-10">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -117,7 +117,7 @@ export function StaticContents() {
       <div className="mx-auto w-full max-w-screen-xl pt-16 pb-20 px-8" >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-80 gap-y-40 mt-10 idms-for-bg">
           <div>
-            <Image src="/images/idms_for/for_government.svg" height={206} width={350} alt="IDMS for government" />
+            <img src="/images/Logo.png" className="grayscale hover:grayscale-0 h-40 cursor-pointer"  alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Government</h2>
             <div className="flex mb-3">
               <Image src="/images/idms_for/share.svg" height={24} width={24} alt="facilitate data share" />
@@ -143,7 +143,7 @@ export function StaticContents() {
 
           {/* IDMS for citizen */}
           <div>
-            <Image src="/images/idms_for/idms_for_citizen.svg" height={206} width={350} alt="IDMS for government" />
+            <img src="/images/idms_for/public.svg" className="grayscale hover:grayscale-0 h-40 cursor-pointer" alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Citizens</h2>
             <div className="flex mb-3">
               <Image src="/images/idms_for/access.svg" height={24} width={24} alt="facilitate data share" />

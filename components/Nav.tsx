@@ -62,14 +62,14 @@ export function Nav() {
   return (
     <header
       className={`
-        sticky top-0 z-50 flex items-center justify-between px-4 py-5 sm:px-6 lg:px-8 max-w-full
+        sticky top-0 z-50 flex items-center justify-between py-5 
         ${isScrolled
           ? "bg-background/75 dark:bg-background-dark/95 backdrop-blur [@supports(backdrop-filter:blur(0))]:dark:bg-background-dark/75"
           : "bg-background dark:bg-background-dark"
         }
       `}
     >
-      <div className="mx-auto w-full md:px-8 lg:px-0 xl:px-8 max-w-screen-xl flex md:flex-col">
+      <div className="mx-auto w-full max-w-screen-xl md:px-8 md:flex-col flex">
         <div className="mr-2 sm:mr-4 flex md:hidden inline">
           <MobileNavigation navigation={navLinks} />
         </div>
