@@ -4,8 +4,8 @@
 const readings = [
     { title: "Connecting local data ecosystem", body: "Diagnostic of municipality data management in Nepal and Evaluating Integrated Data Management System as a solution", href: "https://www.d4dnepal.org/2023/03/10/diagnostic-of-municipality-data-management-in-nepal-and-evaluating-integrated-data-management-systems-as-a-solution/" },
     { title: "Policy Brief: Connecting local data ecosystem", body: "Policy Brief of municipality data management in Nepal and Evaluating Integrated Data Management System as a solution", href: "https://www.d4dnepal.org/2023/03/09/connecting-local-data-ecosystems-policy-brief/" },
-    { title: "Insights from LG Data Fellowship", body: "Supporting Local Government for informed decision making", href: "https://www.d4dnepal.org/2023/03/09/connecting-local-data-ecosystems-policy-brief/" },
-    { title: "Insights from LG Data Fellowship", body: "Supporting Local Government for informed decision making", href: "https://www.d4dnepal.org/2023/03/09/connecting-local-data-ecosystems-policy-brief/" }
+    { title: "Insights from LG Data Fellowship", body: "Supporting Local Government for informed decision making", href: "https://oknp.org/blogs/supporting-local-government-for-informed-decision-making-insights-from-lg-data-fellowship-program" },
+    { title: "Insights from LG Data Fellowship", body: "Supporting Local Government for informed decision making", href: "https://oknp.org/blogs/supporting-local-government-for-informed-decision-making-insights-from-lg-data-fellowship-program" },
 
 ]
 

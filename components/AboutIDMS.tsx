@@ -3,7 +3,7 @@ export function AboutIDMS() {
   return (
     <>
       <section className="lg:relative px-6">
-        <div className="mx-auto px-8 w-full max-w-screen-md pt-16 pb-20 text-left lg:text-left custom-bg">
+        <div className="mx-auto px-8 w-full max-w-screen-xl pt-16 pb-20 text-left lg:text-left custom-bg">
 
           <div className="xl:pr-8">
             <h1 className="text-4xl mr-8 font-headings font-bold tracking-tight text-primary flex flex-col ">
@@ -18,7 +18,7 @@ export function AboutIDMS() {
             <h1 className="text-xl mr-8 font-bold tracking-tight text-primary flex flex-col mt-16">
               High level fuctional overview
             </h1>
-            <img src="/images/IDMSFunctional.svg" alt="Functional Diagram" className="mt-10"/>
+            <img src="/images/IDMSFunctional.svg" alt="Functional Diagram" className="mt-10 w-4/5"/>
           </div>
         </div>
       </section>

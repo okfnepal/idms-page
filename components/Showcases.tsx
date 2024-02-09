@@ -11,7 +11,7 @@ export function Showcases() {
   return (
     <>
       <section className="lg:relative">
-        <div className="mx-auto w-full max-w-screen-md px-8 pt-32 pb-20 text-center lg:text-left custom-bg">
+        <div className="mx-auto w-full max-w-screen-xl px-8 pt-32 pb-20 text-center lg:text-left custom-bg">
           <div className=" xl:pr-8">
             <h1 className="mb-8 text-2xl mr-8 font-headings font-bold tracking-tight text-3xl flex flex-col">
               Showcases
@@ -19,7 +19,7 @@ export function Showcases() {
             <p className="tracking-tight">
               IDMS is used by different government agencies to bring data to the center hub.he system is used to effectively share the data between the department and to make the potential data available to the general public.   
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-32 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-10">
               {projects.map((item, index) => (
                 <div key={index} className="border-2 mx-auto lg:mx-0 text-left  cursor-pointer hover:grayscale">
                   <img className="" src={item.imagePath} alt="showcase idms" />
