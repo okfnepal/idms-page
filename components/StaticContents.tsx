@@ -23,7 +23,7 @@ export function StaticContents() {
                     <span
                       className="block w-36 mr-4 flex justify-center rounded-md bg-teal-400 px-4 py-3 font-medium text-slate-50 shadow hover:text-slate-800"
                     >
-                      Showcase
+                      Showcases
                     </span>
                   </Link>
                   <Link href="/about-idms">
@@ -98,7 +98,7 @@ export function StaticContents() {
         <div className="mx-auto w-full max-w-screen-xl pt-16 pb-20 px-8">
           <div className="flex  items-center">
             <span className="relative inline-block font-semibold text-3xl text-black overflow-hidden mx-auto">
-              <span className=" heading-highlight relative font-headings z-10">IDMS Features</span>
+              <span className=" heading-highlight relative font-headings z-10">Features</span>
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-16" >
@@ -117,7 +117,7 @@ export function StaticContents() {
       <div className="mx-auto w-full max-w-screen-xl pt-16 pb-20 px-8" >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-80 gap-y-40 mt-10 idms-for-bg">
           <div>
-            <img src="/images/Logo.png" className="grayscale hover:grayscale-0 h-40 cursor-pointer"  alt="IDMS for government" />
+            <img src="/images/government.svg" className="h-40 cursor-pointer"  alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Government</h2>
             <div className="flex mb-3">
               <Image src="/images/idms_for/share.svg" height={24} width={24} alt="facilitate data share" />
@@ -143,7 +143,7 @@ export function StaticContents() {
 
           {/* IDMS for citizen */}
           <div>
-            <img src="/images/idms_for/public.svg" className="grayscale hover:grayscale-0 h-40 cursor-pointer" alt="IDMS for government" />
+            <img src="/images/public.svg" className="h-40 cursor-pointer" alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Citizens</h2>
             <div className="flex mb-3">
               <Image src="/images/idms_for/access.svg" height={24} width={24} alt="facilitate data share" />
@@ -172,14 +172,14 @@ export function StaticContents() {
       {/* Showcases */}
       <div className="bg-gray-100 h-auto">
         <div className="mt-8 showcase"></div>
-        <div className="mx-auto w-full max-w-screen-xl pt-16 pb-40 px-8">
+        <div className="mx-auto w-full max-w-screen-xl pt-16 pb-24 px-8">
           <div className="flex  items-center">
             <span className="relative inline-block font-semibold text-3xl text-black overflow-hidden mx-auto">
               <span className=" heading-highlight relative font-headings z-10">Showcases</span>
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-4 px-8 ">
+            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-8 px-8 ">
               <h2 className="text-lg font-bold mb-4">Birgunj Metropolitan City IDMS </h2>
               <a target="_blank" href="https://data.birgunjmun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
             </div>
@@ -197,7 +197,7 @@ export function StaticContents() {
           <div className=" px-8 flex justify-end">
             <Link href="/showcases">
               <span
-                className="bottom-24 relative block w-36 mr-8 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-200"
+                className="bottom-12 relative block w-36 mr-8 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-200"
               >
                 See All
               </span>

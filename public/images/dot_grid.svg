@@ -1,5 +1,5 @@
-<svg width="1415" height="326" viewBox="0 0 1415 326" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_173_99)">
+<svg width="1424" height="326" viewBox="0 0 1424 326" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_227_1947)">
 <circle cx="5" cy="5" r="5" fill="#AEFFEC"/>
 <circle cx="23" cy="5" r="5" fill="#AEFFEC"/>
 <circle cx="41" cy="5" r="5" fill="#AEFFEC"/>
@@ -475,7 +475,7 @@
 <circle cx="1391" cy="95" r="5" fill="#AEFFEC"/>
 <circle cx="1409" cy="95" r="5" fill="#AEFFEC"/>
 </g>
-<g clip-path="url(#clip1_173_99)">
+<g clip-path="url(#clip1_227_1947)">
 <circle cx="6" cy="223" r="5" fill="#0DF0B9"/>
 <circle cx="24" cy="223" r="5" fill="#0DF0B9"/>
 <circle cx="42" cy="223" r="5" fill="#0DF0B9"/>
@@ -634,6 +634,7 @@
 <circle cx="1374" cy="241" r="5" fill="#0DF0B9"/>
 <circle cx="1392" cy="241" r="5" fill="#0DF0B9"/>
 <circle cx="1410" cy="241" r="5" fill="#0DF0B9"/>
+<g clip-path="url(#clip2_227_1947)">
 <circle cx="6" cy="259" r="5" fill="#0DF0B9"/>
 <circle cx="24" cy="259" r="5" fill="#0DF0B9"/>
 <circle cx="42" cy="259" r="5" fill="#0DF0B9"/>
@@ -713,6 +714,7 @@
 <circle cx="1374" cy="259" r="5" fill="#0DF0B9"/>
 <circle cx="1392" cy="259" r="5" fill="#0DF0B9"/>
 <circle cx="1410" cy="259" r="5" fill="#0DF0B9"/>
+</g>
 <circle cx="6" cy="277" r="5" fill="#0DF0B9"/>
 <circle cx="24" cy="277" r="5" fill="#0DF0B9"/>
 <circle cx="42" cy="277" r="5" fill="#0DF0B9"/>
@@ -951,7 +953,7 @@
 <circle cx="1392" cy="313" r="5" fill="#0DF0B9"/>
 <circle cx="1410" cy="313" r="5" fill="#0DF0B9"/>
 </g>
-<g clip-path="url(#clip2_173_99)">
+<g clip-path="url(#clip3_227_1947)">
 <circle cx="6" cy="115" r="5" fill="#55FBD3"/>
 <circle cx="24" cy="115" r="5" fill="#55FBD3"/>
 <circle cx="42" cy="115" r="5" fill="#55FBD3"/>
@@ -1428,13 +1430,16 @@
 <circle cx="1410" cy="205" r="5" fill="#55FBD3"/>
 </g>
 <defs>
-<clipPath id="clip0_173_99">
+<clipPath id="clip0_227_1947">
 <rect width="1414" height="108" fill="white"/>
 </clipPath>
-<clipPath id="clip1_173_99">
+<clipPath id="clip1_227_1947">
 <rect width="1414" height="108" fill="white" transform="translate(1 218)"/>
 </clipPath>
-<clipPath id="clip2_173_99">
+<clipPath id="clip2_227_1947">
+<rect width="1432" height="18" fill="white" transform="translate(1 254)"/>
+</clipPath>
+<clipPath id="clip3_227_1947">
 <rect width="1414" height="108" fill="white" transform="translate(1 110)"/>
 </clipPath>
 </defs>

@@ -7,7 +7,7 @@ export function AboutIDMS() {
 
           <div className="xl:pr-8">
             <h1 className="text-4xl mr-8 font-headings font-bold tracking-tight text-primary flex flex-col ">
-              About IDMS
+              About Integrated Data Management System
             </h1>
             <p className="mb-4 mt-3 text-base md:mt-8">
             Integrated Data Management System (IDMS) is a comprehensive and interoperable digital platform meticulously designed to facilitate seamless inter-governmental data sharing and the efficient dissemination of valuable data in the public domain, adhering to the FAIR principles.

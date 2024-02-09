@@ -66,8 +66,6 @@ html {
 }
 
 .light .docs :is(h1, h2, h3, h4, h5, h6)>a {
-  /* border: 1px solid #ab2b65; */
-  /* background: none; */
   background: #e2e8f0;
 }
 
@@ -133,13 +131,12 @@ html {
   content: '';
   display: block;
   background-image: url('/images/dot_grid.svg');
-  background-repeat: no-repeat;
-  position: absolute;
-  background-position: center;
-  /* margin-top: 10px; */
-  height: 600px;
   width: 100%;
-  /* Adjust the width to control the image area */
+  background-repeat: repeat-x;
+  position: absolute;
+  background-position: left center;
+  margin-right: 10px;
+  height: 580px;
   z-index: 0;
 }
 

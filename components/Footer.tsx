@@ -16,7 +16,7 @@ interface FooterProps extends HTMLDivProps {
 }
 const footerSocials = [
     { title: "About", favIcon: faUsers, href: "/about-okn"},
-    { title: "Email", favIcon: faEnvelopeOpen, href: "https://oknp.org/contacts"},
+    { title: "Email", favIcon: faEnvelopeOpen, href: "https://oknp.org/contact"},
     { title: "Twitter/X", favIcon: faXTwitter, href: "https://twitter.com/okfn_np"},
     { title: "Facebook", favIcon: faFacebookF, href: "https://www.facebook.com/okfnepal/"}]
 
@@ -44,7 +44,7 @@ const Footer: FC<FooterProps> = (props: FooterProps) => {
                 <hr />
                 <div className="flex-1 flex flex-col md:flex-row justify-between py-4">
                     <p className="text-sm md:text-base pb-2 md:pb-0 w-full md:w-4/6">Content on this site, made by &nbsp;
-                        <Link href='/'><span>Open Knowledge Nepal</span></Link>, is licensed under a <Link href="https://creativecommons.org/licenses/by/4.0/"><span >Creative Commons Attribution 4.0 International License.</span></Link>
+                        <Link href='https://oknp.org/'><span className='underline'>Open Knowledge Nepal</span></Link>, is licensed under a <Link href="https://creativecommons.org/licenses/by/4.0/"><span className='underline'>Creative Commons Attribution 4.0 International License.</span></Link>
                     </p>
                     <div className="text-sm md:text-base pr-2 no-underline" >
                         <a href="https://oknp.org/privacy" target='_blank'> <span className='mr-4'>Privacy Policy</span></a>
