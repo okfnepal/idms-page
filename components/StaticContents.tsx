@@ -77,7 +77,7 @@ export function StaticContents() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16" >
           {existingProblems.map((item, index) => (
-            <div key={index} className="border-teal-300 border-2 px-8 py-8 hover:bg-teal-200">
+            <div key={index} className="border-teal-300 border-2 px-8 py-8 hover:bg-teal-200 shadow-md cursor-default">
               <div className="flex">
                 <img src={item.imageSrc} width={item.imageWidth} />
                 <div className="my-auto">
@@ -179,15 +179,15 @@ export function StaticContents() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-8 px-8 ">
+            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-8 px-8 cursor-default">
               <h2 className="text-lg font-bold mb-4">Birgunj Metropolitan City IDMS </h2>
               <a target="_blank" href="https://data.birgunjmun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
             </div>
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8">
+            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8 cursor-default">
               <h2 className="text-lg font-bold mb-4">Tulsipur Sub-Metropolitan City IDMS</h2>
               <a target="_blank" href="https://data.tulsipurmun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
             </div>
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8">
+            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8 cursor-default">
               <h2 className="text-lg font-bold mb-4">Lekbeshi Municipality IDMS </h2>
               <a target="_blank" href="https://data.lekbeshimun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
             </div>
@@ -197,7 +197,7 @@ export function StaticContents() {
           <div className=" px-8 flex justify-end">
             <Link href="/showcases">
               <span
-                className="bottom-12 relative block w-36 mr-8 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-200"
+                className="bottom-12 relative block w-36 mr-0 flex justify-center rounded-md text-primary bg-white px-4 py-3 font-medium shadow hover:bg-teal-200"
               >
                 See All
               </span>

@@ -134,8 +134,8 @@ html {
   width: 100%;
   background-repeat: repeat-x;
   position: absolute;
-  background-position: left center;
-  margin-right: 10px;
+  background-position: center;
+  /* margin-right: 10px; */
   height: 580px;
   z-index: 0;
 }

@@ -21,7 +21,10 @@ export function Showcases() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
               {projects.map((item, index) => (
-                <div key={index} className="border-teal-300 border-2 mx-auto lg:mx-0 text-left  cursor-pointer hover:grayscale">
+                <div 
+                key={index} 
+                className="border-teal-300 border-2 mx-auto lg:mx-0 text-left  cursor-pointer hover:grayscale p-4 shadow-md "
+                onClick={() => window.open(item.url, '_blank')}>
                   <img className="p-4 w-28" src={item.imagePath} alt="showcase idms" />
                   <div className="p-4 pt-0">
                     <h2 className="font-bold text-xl pb-4">{item.heading}</h2>
