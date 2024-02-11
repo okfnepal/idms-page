@@ -85,3 +85,26 @@ export const featuresList = [
     }
 ];
 
+
+export const showcaseItems = [
+    {name:"Birgunj Metropolitan City IDMS", href:"https://data.birgunjmun.gov.np/"},
+    {name:"Tulsipur Sub-Metropolitan City IDMS", href:"https://data.tulsipurmun.gov.np/"},
+    {name:"Lekbeshi Municipality IDMS", href:"https://data.lekbeshimun.gov.np/"}
+];
+
+export const idmsForGovernment = [
+    {img:"/images/idms_for/share.svg", text:"Facilitate data sharing"},
+    {img:"/images/idms_for/duplication.svg", text:"Reduce data duplication"},
+    {img:"/images/idms_for/quality.svg", text:"Improve data quality"},
+    {img:"/images/idms_for/reporting.svg", text:"Act as a single gateway for reporting"},
+    {img:"/images/idms_for/house.svg", text:"Function as a centralized data warehouse"}
+]
+
+export const idmsForCitizen = [
+    {img:"/images/idms_for/access.svg", text:"Enhance data access"},
+    {img:"/images/idms_for/view.svg", text:"Faster insights"},
+    {img:"/images/idms_for/analytics.svg", text:"Offers resources for analytics"},
+    {img:"/images/idms_for/encourage.svg", text:"Encourage data-driven decision making"},
+    {img:"/images/idms_for/star.svg", text:"Improves business intelligence"}
+]
+

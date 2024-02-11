@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { featuresList, existingProblems } from "@/content/data"
+import { featuresList, existingProblems, showcaseItems, idmsForCitizen, idmsForGovernment } from "@/content/data"
 
 
 export function StaticContents() {
@@ -119,52 +119,24 @@ export function StaticContents() {
           <div>
             <img src="/images/government.svg" className="h-40 cursor-pointer"  alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Government</h2>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/share.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Facilitate data sharing</p>
+            {idmsForGovernment.map((item,index)=>(
+            <div key={index} className="flex mb-3">
+              <Image src={item.img} height={24} width={24} alt={item.text} />
+              <p className="text-lg ml-4">{item.text}</p>
             </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/duplication.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Reduce data duplication</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/quality.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Improve data quality</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/reporting.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Act as a single gateway for reporting</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/house.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Function as a centralized data warehouse</p>
-            </div>
+            ))}
           </div>
 
           {/* IDMS for citizen */}
           <div>
             <img src="/images/public.svg" className="h-40 cursor-pointer" alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Citizens</h2>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/access.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Enhance data access</p>
+            {idmsForCitizen.map((item,index)=>(
+            <div key={index} className="flex mb-3">
+              <Image src={item.img} height={24} width={24} alt={item.text} />
+              <p className="text-lg ml-4">{item.text}</p>
             </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/view.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Faster insights</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/analytics.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Offers resources for analytics</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/encourage.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Encourage data-driven decision making</p>
-            </div>
-            <div className="flex mb-3">
-              <Image src="/images/idms_for/star.svg" height={24} width={24} alt="facilitate data share" />
-              <p className="text-lg ml-4">Improves business intelligence</p>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -179,18 +151,12 @@ export function StaticContents() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-8 px-8 cursor-default">
-              <h2 className="text-lg font-bold mb-4">Birgunj Metropolitan City IDMS </h2>
-              <a target="_blank" href="https://data.birgunjmun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
+            {showcaseItems.map((item,index)=>(
+            <div key={index} className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-4 px-8 cursor-default">
+              <h2 className="text-lg font-bold mb-4">{item.name}</h2>
+              <a target="_blank" href={item.href}><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
             </div>
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8 cursor-default">
-              <h2 className="text-lg font-bold mb-4">Tulsipur Sub-Metropolitan City IDMS</h2>
-              <a target="_blank" href="https://data.tulsipurmun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
-            </div>
-            <div className="relative border-teal-300 border-2 bg-white hover:bg-teal-100 py-4 px-8 cursor-default">
-              <h2 className="text-lg font-bold mb-4">Lekbeshi Municipality IDMS </h2>
-              <a target="_blank" href="https://data.lekbeshimun.gov.np/"><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
-            </div>
+            ))}
           </div>
         </div>
         <div className="mx-auto max-w-screen-xl">

@@ -1,8 +1,8 @@
 
 const projects = [
-  { imagePath: "/images/Logo.png", url: "https:data.tulsipurmun.gov.np", heading: "Tulsipur Sub-Metropolitan City IDMS", body: "IDMS Tuslipur is IDMS implemented by the Tulsipur Sub-Metropolitan City from Lumbuni Province, Dang." },
-  { imagePath: "/images/Logo.png", url: "https:data.birgunjmun.gov.np", heading: "Birgunj Metropolitan City IDMS", body: "IDMS Birgunj is implemented by the Birgunj Metropolitan City situated in Madesh Province, Parsa." },
-  { imagePath: "/images/Logo.png",url: "https:data.lekbeshimun.gov.np", heading: "Lekbeshi Municipality IDMS", body: "IDMS Birgunj is implemented by the Lekbeshi Municipality situated in Karnali Province, Surkhet." }
+  { imagePath: "/images/Logo.png", url: "https:data.tulsipurmun.gov.np", heading: "Tulsipur Sub-Metropolitan City", body: "Integrated Data Management System (IDMS)" },
+  { imagePath: "/images/Logo.png", url: "https:data.birgunjmun.gov.np", heading: "Birgunj Metropolitan City", body: "Integrated Data Management System (IDMS)" },
+  { imagePath: "/images/Logo.png",url: "https:data.lekbeshimun.gov.np", heading: "Lekbeshi Municipality", body: "Integrated Data Management System (IDMS)" }
 
 ]
 
@@ -19,7 +19,7 @@ export function Showcases() {
             <p className="tracking-tight">
               IDMS is used by different government agencies to bring data to the center hub.he system is used to effectively share the data between the department and to make the potential data available to the general public.   
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-5/6 gap-12 mt-10">
               {projects.map((item, index) => (
                 <div 
                 key={index} 
