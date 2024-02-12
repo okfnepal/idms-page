@@ -10,13 +10,16 @@ export function StaticContents() {
       <section className="lg:relative">
         <div className="font-archivo mx-auto w-full max-w-screen-xl grid grid-cols-12 pt-12 pb-20 text-center lg:text-left custom-bg">
           <div className="sm:px-8 xl:pr-0 mt-10 col-span-12 lg:col-span-6">
-            <h1 className="my-10 text-2xl mr-8 font-headings font-bold tracking-tight text-primary xl:text-5xl flex flex-col leading-relax">
-              Intervening Government’s Data Management
+            <h1 className="mt-10 text-2xl mr-4 font-headings font-bold tracking-tight text-primary xl:text-5xl flex flex-col leading-relax">
+              Intervening Government’s
             </h1>
-            <p className="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-8 md:max-w-3xl">
+            <h1 className="mb-2 mt-4 text-2xl mr-8 font-headings font-bold tracking-tight text-teal-600 xl:text-5xl flex flex-col leading-relax">
+              Data Management
+            </h1>
+            <p className="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-4 md:max-w-3xl">
               Integrated Data Management System (IDMS)
             </p>
-            <div className="mt-10 sm:mt-12">
+            <div className="mt-8 ">
               <div>
                 <div className="flex justify-center lg:justify-start">
                   <Link href="/showcases">
@@ -34,13 +37,16 @@ export function StaticContents() {
                     </span>
                   </Link>
                 </div>
+              <div 
+              className="mt-8 flex items-center text-gray-500 justify-center lg:justify-start cursor-pointer"
+              onClick={() => window.open('https://ckan.org/', '_self')}> <p className="mr-1">Powered by</p> <a href="https://ckan.org/"><img src="/images/ckan.svg" alt="ckan logo" className="h-7" /></a></div>
               </div>
 
             </div>
           </div>
-          <div className="col-span-12 lg:col-span-6">
-            <div className="max-h-sm">
-              <img className=" inset-r-0 w-11/12" src="/images/hero-img.svg" alt="intervening government data management" />
+          <div className="col-span-12 lg:col-span-6 mx-auto lg:mx-0">
+            <div className="mt-12">
+              <img className="inset-r-0" src="/images/hero-img.svg" alt="intervening government data management" />
             </div>
           </div>
         </div>
