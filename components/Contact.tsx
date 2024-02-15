@@ -65,7 +65,7 @@ export function Contact() {
 
                     <div className="xl:pr-8">
                         <h1 className="text-4xl mr-8 font-headings font-bold tracking-tight text-primary flex flex-col ">
-                            Let's Talk
+                            {`Let's Talk`}
                         </h1>
                         <div className="w-full ">
                             <form
