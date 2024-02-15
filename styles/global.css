@@ -106,12 +106,15 @@ html {
   z-index: -1;
   left: 0;
   right: 0;
-  height: 50%; /* Adjust height as needed */
-  background: #5EEAD4; /* Your desired background color */
-  bottom: 0; /* Align to bottom of text */
+  height: 50%;
+  /* Adjust height as needed */
+  background: #5EEAD4;
+  /* Your desired background color */
+  bottom: 0;
+  /* Align to bottom of text */
 }
 
-.idms-for-bg::after{
+.idms-for-bg::after {
   content: '';
   display: block;
   background-image: url('/images/line.svg');
@@ -127,7 +130,7 @@ html {
 
 
 
-.showcase::after{
+.showcase::after {
   content: '';
   display: block;
   background-image: url('/images/dot_grid.svg');
@@ -140,12 +143,18 @@ html {
   z-index: 0;
 }
 
+.contact_banner {
+  background: rgb(190, 255, 239);
+  background: linear-gradient(90deg, rgba(190, 255, 239, 1) 42%, rgba(255, 255, 255, 1) 70%, rgba(252, 252, 252, 1) 100%);
+}
+
 @media screen and (max-width:769px) {
-  .idms-for-bg::after{
+  .idms-for-bg::after {
     display: none;
     visibility: hidden;
   }
-  .showcase::after{
+
+  .showcase::after {
     height: 920px;
     margin-top: -90px;
   }

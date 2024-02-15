@@ -13,7 +13,8 @@ const navLinks = [
       { href: "/about-okn", name: "About OKN" }]
   },
   { href: "/#features", name: "Features" },
-  { href: "/showcases", name: "Showcases" },]
+  { href: "/showcases", name: "Showcases" },
+  { href: "/contact", name: "Contact" },]
 
 
 function NavbarTitle() {

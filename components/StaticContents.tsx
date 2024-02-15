@@ -10,10 +10,10 @@ export function StaticContents() {
       <section className="lg:relative">
         <div className="font-archivo mx-auto w-full max-w-screen-xl grid grid-cols-12 pt-12 pb-20 text-center lg:text-left custom-bg">
           <div className="sm:px-8 xl:pr-0 mt-10 col-span-12 lg:col-span-6">
-            <h1 className="mt-10 text-2xl mr-4 font-headings font-bold tracking-tight text-primary xl:text-5xl flex flex-col leading-relax">
+            <h1 className="mt-10 text-2xl md:text-4xl mr-4 font-headings font-bold tracking-tight text-primary lg:text-4xl xl:text-5xl flex flex-col leading-relax">
               Intervening Government’s
             </h1>
-            <h1 className="mb-2 mt-4 text-2xl mr-8 font-headings font-bold tracking-tight text-teal-600 xl:text-5xl flex flex-col leading-relax">
+            <h1 className="mb-2 mt-4 text-2xl md:text-4xl mr-8 font-headings font-bold tracking-tight text-teal-600 lg:text-4xl xl:text-5xl flex flex-col leading-relax">
               Data Management
             </h1>
             <p className="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-4 md:max-w-3xl">
@@ -25,7 +25,7 @@ export function StaticContents() {
                   <Link href="/showcases">
                     <span
                       className="block w-36 mr-4 flex justify-center rounded-md bg-teal-400 px-4 py-3 font-medium text-slate-50 shadow hover:text-slate-800"
-                    >
+                    > 
                       Showcases
                     </span>
                   </Link>
