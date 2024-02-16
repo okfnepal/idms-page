@@ -1,6 +1,6 @@
-import Link from "next/link"
 import ReCAPTCHA from "react-google-recaptcha"
 import React, { useState } from 'react';
+import { useForm } from '@formspree/react';
 
 
 export function Contact() {
@@ -12,18 +12,19 @@ export function Contact() {
         subject: '',
         message: '',
     });
-
+    const [state, handleSubmit] = useForm('mnqedzkn');
+    const [captchaSolved, setCaptchaSolved] = useState(false)
     const formItems = [
-        { id: "name", placeholder: "Full Name*", value: formData.name },
-        { id: "organization", placeholder: "Organization*", value: formData.organization },
-        { id: "phone", placeholder: "Phone", value: formData.phone },
-        { id: "subject", placeholder: "Subject*", value: formData.subject },
-        { id: "message", placeholder: "Message*", value: formData.message }
+        { id: "name", placeholder: "Full Name*", value: formData.name, required: true },
+        { id: "organization", placeholder: "Organization*", value: formData.organization, required: true },
+        { id: "phone", placeholder: "Phone", value: formData.phone, required: false },
+        { id: "subject", placeholder: "Subject*", value: formData.subject, required: true },
+        { id: "message", placeholder: "Message*", value: formData.message, required: true }
     ]
 
-    function onChange(value:any) {
-        console.log("Captcha value:", value);
-      }
+    function onChange(value: any) {
+        setCaptchaSolved(true)
+    }
 
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -31,31 +32,18 @@ export function Contact() {
         console.log(name)
         setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
-
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log('this is form data', formData)
+        await handleSubmit(e);
+        await setFormData({
+            name: '',
+            organization: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: '',
+        })
 
-        // try {
-        //     const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
-        //         method: 'POST',
-        //         headers: {
-        //             'Content-Type': 'application/json',
-        //             'Authorization': 'Bearer YOUR_SENDGRID_API_KEY',
-        //         },
-        //         body: JSON.stringify(formData),
-        //     });
-
-        //     if (response.ok) {
-        //         console.log('Email sent successfully');
-        //         // You can handle success, e.g., display a success message
-        //     } else {
-        //         console.error('Failed to send email');
-        //         // Handle failure, display an error message, etc.
-        //     }
-        // } catch (error) {
-        //     console.error('Error sending email:', error);
-        // }
     };
 
     return (
@@ -68,14 +56,16 @@ export function Contact() {
                             {`Let's Talk`}
                         </h1>
                         <div className="w-full ">
+                            {state.succeeded ? <div>Thank you for signing up!</div> : null}
                             <form
-                                onSubmit={handleSubmit}
+                                onSubmit={handleFormSubmit}
                                 className="rounded pr-8 pt-6 pb-8 mb-4 w-4/5"
                             >
                                 {formItems.map((item, index) => (
                                     <div key={index} className="mb-4">
                                         {item.id === "message" ?
                                             <textarea
+                                                required
                                                 id={item.id}
                                                 name={item.id}
                                                 placeholder={item.placeholder}
@@ -85,11 +75,13 @@ export function Contact() {
                                             />
                                             :
                                             <input
+
                                                 id={item.id}
                                                 name={item.id}
                                                 placeholder={item.placeholder}
                                                 value={item.value}
                                                 onChange={handleChange}
+                                                required={item.required}
                                                 type="text"
                                                 className="shadow appearance-none border-teal-300 border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                             />
@@ -100,7 +92,7 @@ export function Contact() {
                                     sitekey="6Le80HMpAAAAAFPBmsRWz5nqcS6mBoMXyWlVijzr"
                                     onChange={onChange}
                                 />
-                                <button type="submit">
+                                <button type="submit" disabled={state.submitting || state.succeeded || !captchaSolved}>
                                     <span
                                         className="mt-5 block w-36 flex justify-center rounded-md bg-neutral-900 px-4 py-3 font-medium text-slate-50 shadow hover:bg-neutral-800 hover:text-slate "
                                     >
