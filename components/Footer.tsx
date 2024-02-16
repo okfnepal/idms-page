@@ -16,7 +16,7 @@ interface FooterProps extends HTMLDivProps {
 }
 const footerSocials = [
     { title: "About", favIcon: faUsers, href: "/about-okn"},
-    { title: "Email", favIcon: faEnvelopeOpen, href: "https://oknp.org/contact"},
+    { title: "Email", favIcon: faEnvelopeOpen, href: "/contact"},
     { title: "Twitter/X", favIcon: faXTwitter, href: "https://twitter.com/okfn_np"},
     { title: "Facebook", favIcon: faFacebookF, href: "https://www.facebook.com/okfnepal/"}]
 
