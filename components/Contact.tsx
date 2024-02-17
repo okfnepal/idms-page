@@ -43,7 +43,7 @@ export function Contact() {
                     email: '',
                     phone: '',
                     subject: '',
-                    message: '',  
+                    message: '',
                 }
             )
         }
@@ -53,16 +53,16 @@ export function Contact() {
     return (
         <>
             <section className="lg:relative px-6 h-full ">
-                <div className="mx-auto px-8 w-full max-w-screen-xl pt-16 pb-20 text-left lg:text-left custom-bg">
-                    <div className="xl:pr-8">
+                <div className="mx-auto px-8 w-full max-w-screen-xl pt-16 pb-20 text-left lg:text-left custom-bg flex">
+                    <div className="pr-0 xl:pr-8 w-full md:w-4/6" >
                         <h1 className="text-4xl mr-8 font-headings font-bold tracking-tight text-primary flex flex-col ">
                             {`Let's Talk`}
                         </h1>
-                        <div className="w-full ">
+                        <div className="w-full">
                             {state.succeeded ? <div className="text-teal-500 text-base">Response Sent! We will get back to you soon.</div> : null}
                             <form
                                 onSubmit={handleFormSubmit}
-                                className="rounded pr-8 pt-6 pb-8 mb-4 md:w-4/5"
+                                className="rounded md:pr-8 pt-6 pb-8 mb-4"
                             >
                                 {formItems.map((item, index) => (
                                     <div key={index} className="mb-4">
@@ -102,6 +102,12 @@ export function Contact() {
                                     </span>
                                 </button>
                             </form>
+                        </div>
+                    </div>
+                    <div className="hidden lg:block w-2/5 flex text-lg font-normal  justify-between">
+                        <div className="mt-14 h-fit rounded">
+                        <h2 className="mb-4">{`Interested in collaborating, seeing a demo, or obtaining answers to your questions?`}</h2>
+                        <h2 className="italic">{`We're just an email away at`} <span className="underline italic">info@oknp.org</span></h2>
                         </div>
                     </div>
                 </div>
