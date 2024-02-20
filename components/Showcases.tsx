@@ -30,7 +30,7 @@ export function Showcases() {
                     <h2 className="font-bold text-xl pb-4">{item.heading}</h2>
                     <p>{item.body}</p>
                   </div>
-                  <a href={item.url} target="_blank" className="relative bottom-2 p-4 text-base">Learn More →</a>
+                  <span className="relative bottom-2 p-4 text-base">Learn More →</span>
                 </div>
               ))}
             </div>
