@@ -23,7 +23,7 @@ function NavbarTitle() {
       <img
         src="/images/okn-logo.svg"
         alt="logo"
-        className="w-full h-12 mr-1 fill-white"
+        className="h-12 mr-1 fill-white"
       />
     </>
   );
