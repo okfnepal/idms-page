@@ -108,3 +108,20 @@ export const idmsForCitizen = [
     {img:"/images/idms_for/star.svg", text:"Improves business intelligence"}
 ]
 
+
+// about page contents
+
+export const idmsWorking = [
+    {title:"Data Collection", text:"IDMS streamlines the collection of data from diverse sources within government entities, spanning management information systems, surveys, and other pertinent data repositories."},
+    {title:"Data Integration", text:"Once collected, the data seamlessly integrates into the IDMS platform, where it undergoes preprocessing and standardization procedures to ensure uniformity and compatibility."},
+    {title:"Data Analysis", text:"Decision-makers have access to the integrated data through a suite of analytical tools and visualization techniques embedded within the IDMS. This empowers them to extract valuable insights and identify trends, patterns, and correlations crucial for informed decision-making."},
+    {title:"Decision Making", text:"Equipped with these actionable insights, decision-makers are poised to make well-informed decisions and devise policies that effectively address pressing challenges while capitalizing on emerging opportunities."},
+    {title:"Capacity Building", text:"IDMS goes beyond data provision; it encompasses comprehensive training sessions and capacity-building initiatives aimed at empowering users with the requisite skills and knowledge to harness the full potential of the platform in their operational endeavors."}
+]
+
+export const potentialImpacts =[
+    {title:"Improved Governance", text:"Facilitating better data utilization and decision-making processes, the IDMS holds the potential to significantly enhance governance outcomes and service delivery within government institutions."},
+    {title:"Enhanced Transparency", text:"IDMS serves as a catalyst for transparency and accountability by making data easily accessible to citizens. This fosters greater trust and engagement between governments and the public, ultimately promoting a more open and accountable governance framework."},
+    {title:"Empowered Communities", text:"Through the provision of data-driven insights, the IDMS empowers communities by enabling governments to address their needs more effectively. This leads to positive socio-economic outcomes and fosters a sense of empowerment among citizens."}
+]
+
