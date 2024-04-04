@@ -2,7 +2,8 @@
 const projects = [
   { imagePath: "/images/Logo.png", url: "https://data.tulsipurmun.gov.np", heading: "Tulsipur Sub-Metropolitan City", body: "Integrated Data Management System (IDMS)" },
   { imagePath: "/images/Logo.png", url: "https://data.birgunjmun.gov.np", heading: "Birgunj Metropolitan City", body: "Integrated Data Management System (IDMS)" },
-  { imagePath: "/images/Logo.png",url: "https://data.lekbeshimun.gov.np", heading: "Lekbeshi Municipality", body: "Integrated Data Management System (IDMS)" }
+  { imagePath: "/images/Logo.png",url: "https://data.lekbeshimun.gov.np", heading: "Lekbeshi Municipality", body: "Integrated Data Management System (IDMS)" },
+  { imagePath: "/images/Logo.png",url: "https://data.janakpurmun.gov.np", heading: "Janakpurdham Sub-Metropolitan City", body: "Integrated Data Management System (IDMS)" }
 
 ]
 
