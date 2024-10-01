@@ -12,14 +12,11 @@ export function AboutIDMS() {
               About Integrated Data Management System
             </h1>
             <p className="mb-4 mt-3 text-base md:mt-8">
-              Integrated Data Management System (IDMS) is a comprehensive and interoperable digital platform meticulously designed to facilitate seamless inter-governmental data sharing and the efficient dissemination of valuable data in the public domain, adhering to the FAIR principles
-            </p>
+              Integrated Data Management System (IDMS) is a comprehensive, integrated, and interoperable digital system designed to facilitate seamless inter-governmental data sharing and efficient dissemination of valuable data in the public domain under FAIR (Findable, Accessible, Interoperable, and Reusable) principles.            </p>
             <p className="mb-4 text-base">
-              IDMS ensures the fairness, accessibility, interoperability, and reusability of data, providing a robust framework for secure and transparent data management. Rather than being a standalone system, it functions as a channel to connect data from existing digital systems, delivering standardized data to all stakeholders.
-            </p>
+              IDMS ensures the findability, accessibility, interoperability, and reusability of data, providing a robust framework for secure and transparent data management. Rather than being a standalone system, it functions as a channel to connect data from existing digital systems, delivering standardized data to all stakeholders.            </p>
             <p className="mb-4 text-base">
-              With IDMS, our objective is to revolutionize data management practices within governments, empowering decision-makers with actionable insights and facilitating evidence-based policymaking. IDMS is specifically designed to tackle the challenges of data silos, lack of standardization, and limited data utilization mechanisms prevalent in government settings.
-            </p>
+              With IDMS, our objective is to revolutionize data management practices within governments, empowering decision-makers with actionable insights and facilitating evidence-based policymaking. IDMS is specifically designed to tackle the challenges of data silos, lack of standardization, and limited data utilization mechanisms prevalent in government settings.            </p>
             <p className="mb-4 text-base">
               IDMS is powered by <a href="https://ckan.org/" className="text-sky-700 underline">CKAN</a>, the world’s leading open-source DMS.
             </p>

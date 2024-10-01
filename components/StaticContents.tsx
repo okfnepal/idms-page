@@ -25,7 +25,7 @@ export function StaticContents() {
                   <Link href="/showcases">
                     <span
                       className="block w-36 mr-4 flex justify-center rounded-md bg-teal-400 px-4 py-3 font-medium text-slate-50 shadow hover:text-slate-800"
-                    > 
+                    >
                       Showcases
                     </span>
                   </Link>
@@ -37,9 +37,9 @@ export function StaticContents() {
                     </span>
                   </Link>
                 </div>
-              <div 
-              className="mt-8 flex items-center text-gray-500 justify-center lg:justify-start cursor-pointer"
-              onClick={() => window.open('https://ckan.org/', '_self')}> <p className="mr-1">Powered by</p> <a href="https://ckan.org/"><img src="/images/ckan.svg" alt="ckan logo" className="h-7" /></a></div>
+                <div
+                  className="mt-8 flex items-center text-gray-500 justify-center lg:justify-start cursor-pointer"
+                  onClick={() => window.open('https://ckan.org/', '_self')}> <p className="mr-1">Powered by</p> <a href="https://ckan.org/"><img src="/images/ckan.svg" alt="ckan logo" className="h-7" /></a></div>
               </div>
 
             </div>
@@ -57,10 +57,7 @@ export function StaticContents() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">
                 Integrated Data Management System (IDMS)
               </h2>
-              <p className="mt-2 text-gray-600 text-lg mb-4">
-                IDMS is a comprehensive and interoperable digital platform meticulously designed to facilitate seamless inter-governmental data sharing and the efficient dissemination of valuable data in the public domain, adhering to the FAIR principles.
-                IDMS ensures the fairness, accessibility, interoperability, and reusability of data, providing a robust framework for secure and transparent data management.
-              </p>
+              <p className="mt-2 text-gray-600 text-lg mb-4">IDMS is a comprehensive, integrated, and interoperable digital system designed to facilitate seamless inter-governmental data sharing and efficient dissemination of valuable data in the public domain under FAIR principles. IDMS ensures the findability, accessibility, interoperability, and reusability of data, providing a robust framework for secure and transparent data management.              </p>
               <Link href="/about-idms" >
                 <span className="text-teal-600 hover:text-teal-700 font-medium block mt-4">
                   Learn More →
@@ -123,13 +120,13 @@ export function StaticContents() {
       <div className="mx-auto w-full max-w-screen-xl pt-16 pb-20 px-8" >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-80 gap-y-40 mt-10 idms-for-bg">
           <div>
-            <img src="/images/government.svg" className="h-40 cursor-pointer"  alt="IDMS for government" />
+            <img src="/images/government.svg" className="h-40 cursor-pointer" alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Government</h2>
-            {idmsForGovernment.map((item,index)=>(
-            <div key={index} className="flex mb-3">
-              <Image src={item.img} height={24} width={24} alt={item.text} />
-              <p className="text-lg ml-4">{item.text}</p>
-            </div>
+            {idmsForGovernment.map((item, index) => (
+              <div key={index} className="flex mb-3">
+                <Image src={item.img} height={24} width={24} alt={item.text} />
+                <p className="text-lg ml-4">{item.text}</p>
+              </div>
             ))}
           </div>
 
@@ -137,11 +134,11 @@ export function StaticContents() {
           <div>
             <img src="/images/public.svg" className="h-40 cursor-pointer" alt="IDMS for government" />
             <h2 className="text-2xl my-8 font-bold">IDMS for Citizens</h2>
-            {idmsForCitizen.map((item,index)=>(
-            <div key={index} className="flex mb-3">
-              <Image src={item.img} height={24} width={24} alt={item.text} />
-              <p className="text-lg ml-4">{item.text}</p>
-            </div>
+            {idmsForCitizen.map((item, index) => (
+              <div key={index} className="flex mb-3">
+                <Image src={item.img} height={24} width={24} alt={item.text} />
+                <p className="text-lg ml-4">{item.text}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -157,11 +154,11 @@ export function StaticContents() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
-            {showcaseItems.map((item,index)=>(
-            <div key={index} className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-4 px-8 cursor-default">
-              <h2 className="text-lg font-bold mb-4">{item.name}</h2>
-              <a target="_blank" href={item.href}><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
-            </div>
+            {showcaseItems.map((item, index) => (
+              <div key={index} className="relative border-teal-300 border-2 bg-white hover:bg-teal-200 py-4 px-8 cursor-default">
+                <h2 className="text-lg font-bold mb-4">{item.name}</h2>
+                <a target="_blank" href={item.href}><p className="absolute bottom-2 text-teal-600" >Visit →</p></a>
+              </div>
             ))}
           </div>
         </div>

@@ -10,11 +10,9 @@ export function AboutOKN() {
               About Open Knowledge Nepal
             </h1>
             <p className="mb-4 mt-3 text-base md:mt-8">
-              Open Knowledge Nepal is a nonprofit civic tech organization composed of openness aficionados. We believe that the openness of data is powerful in order to have a participatory government with civil society, eventually leading to sustainable development. The organization has been involved in research, advocacy, training, workshops and developing tools related to open knowledge. We provide data services and solutions to various agencies and specialized in solving data-related problems through consultation and tools development.
-            </p>
+              Open Knowledge Nepal (OKN) is a non-profit civic tech organization working to create a fair, sustainable, and open future by advancing open knowledge as a design principle beyond data. We believe that the openness of data is powerful to have a participatory government with civil society, eventually leading to sustainable development. The organization has been involved in research, advocacy, training, workshops, and developing tools related to open knowledge. We provide data services and solutions to various agencies and specialize in solving data-related problems through consultation and tool development.            </p>
             <p className="mb-4 mt-3 text-base md:mt-8">
-              We want to make sure that everyone in Nepal has free and open access to the key information, empowering them to make decisions about their own lives based on the information that wasn’t available before. Open Knowledge Nepal has been a local chapter of Open Knowledge Foundation since February 2013.
-            </p>
+              We want to ensure that everyone in Nepal has free and open access to key information, empowering them to make decisions about their lives based on information that wasn’t available before. Open Knowledge Nepal has been a local chapter of the Open Knowledge Foundation since February 2013.            </p>
             <h2 className="tracking-tight font-bold text-primary text-xl mt-8 mb-4">We believe in the power of openness </h2>
 
             <p>
