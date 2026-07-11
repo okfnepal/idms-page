@@ -13,7 +13,7 @@ export default function AbooutIDMS() {
           rel="icon"
           href="/images/favicon.ico"
         />
-        <title>About | Open Knowledge Nepal</title>
+        <title>About | Open Knowledge Foundation Nepal</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

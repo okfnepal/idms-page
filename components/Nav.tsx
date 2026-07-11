@@ -10,7 +10,7 @@ const navLinks = [
   {
     name: "About", subItems:
       [{ href: "/about-idms", name: "About IDMS" },
-      { href: "/about-okn", name: "About OKN" }]
+      { href: "/about-okfnepal", name: "About OKF Nepal" }]
   },
   { href: "/#features", name: "Features" },
   { href: "/showcases", name: "Showcases" },
@@ -18,23 +18,28 @@ const navLinks = [
 
 
 function NavbarTitle() {
-  const chunk = (
-    <>
-      <img
-        src="/images/okn-logo.svg"
-        alt="logo"
-        className="h-12 mr-1 fill-white"
-      />
-    </>
-  );
-
   return (
     <Link
       href="/"
       aria-label="Home page"
-      className="flex items-center font-extrabold text-xl sm:text-2xl text-slate-900 dark:text-white"
+      className="flex items-center gap-3 sm:gap-3.5"
     >
-      {chunk}
+      <img
+        src="/images/okn-logo.svg"
+        alt="Open Knowledge Foundation Nepal"
+        className="h-8 sm:h-9 w-auto shrink-0"
+      />
+      <span className="flex items-center gap-3">
+        <span className="w-px h-7 bg-gray-300" aria-hidden="true" />
+        <span className="flex flex-col leading-tight text-left">
+          <span className="text-[11px] sm:text-xs font-medium text-gray-600">
+            Integrated Data
+          </span>
+          <span className="text-[11px] sm:text-xs font-medium text-gray-600">
+            Management System
+          </span>
+        </span>
+      </span>
     </Link>
   );
 }

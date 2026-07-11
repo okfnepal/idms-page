@@ -7,22 +7,25 @@ export function AboutOKN() {
 
           <div className="xl:pr-8">
             <h1 className="text-4xl mr-8 font-headings font-bold tracking-tight text-primary flex flex-col ">
-              About Open Knowledge Nepal
+              About Open Knowledge Foundation Nepal
             </h1>
-            <p className="mb-4 mt-3 text-base md:mt-8">
-              Open Knowledge Nepal (OKN) is a non-profit civic tech organization working to create a fair, sustainable, and open future by advancing open knowledge as a design principle beyond data. We believe that the openness of data is powerful to have a participatory government with civil society, eventually leading to sustainable development. The organization has been involved in research, advocacy, training, workshops, and developing tools related to open knowledge. We provide data services and solutions to various agencies and specialize in solving data-related problems through consultation and tool development.            </p>
-            <p className="mb-4 mt-3 text-base md:mt-8">
-              We want to ensure that everyone in Nepal has free and open access to key information, empowering them to make decisions about their lives based on information that wasn’t available before. Open Knowledge Nepal has been a local chapter of the Open Knowledge Foundation since February 2013.            </p>
-            <h2 className="tracking-tight font-bold text-primary text-xl mt-8 mb-4">We believe in the power of openness </h2>
+            <p className="mb-4 mt-3 text-base md:mt-8 italic">
+              {`"A world where knowledge creates power for the many, not the few" — this is the world we choose.`}
+            </p>
+            <p className="mb-4 mt-3 text-base">
+              Open Knowledge Foundation Nepal (OKF Nepal) is a non-profit civic tech organization working to create a fair, sustainable, and open future by advancing open knowledge as a design principle beyond data. We believe that open data is powerful in enabling participatory governance with civil society, ultimately leading to sustainable development. The organization is engaged in research, advocacy, training, workshops, and the development of tools related to open knowledge. We are the active chapter of the Open Knowledge Foundation Network.            </p>
+            <p className="mb-4 mt-3 text-base">
+              We are committed to ensuring that everyone in Nepal has free and open access to key information, empowering them to make informed decisions about their own lives based on information that was previously inaccessible.            </p>
+            <h2 className="tracking-tight font-bold text-primary text-xl mt-8 mb-4">Why it matters</h2>
 
             <p>
-              We seek a world in which open knowledge is ubiquitous and routine – both online and offline. We promote open knowledge because of its potential to deliver far-reaching societal benefits which include the following:
+              Open knowledge delivers far-reaching societal benefits. We seek a world in which open knowledge is ubiquitous and routine – both online and offline. We promote open knowledge for its potential to deliver far-reaching societal benefits, including:
             </p>
             <ul className="list-disc pl-8 py-4">
-              <li><strong >Better governance:</strong> openness improves governance through increased transparency and engagement.</li>
-              <li><strong>Better culture:</strong> openness means greater access, sharing, and participation in relation to cultural material and activities.</li>
-              <li><strong>Better research:</strong> for research to function effectively, and for society to reap the full benefits from research activities, research outputs should be open.</li>
-              <li><strong>Better economy:</strong> openness permits easier and more rapid reuse of material and open data and content are the key raw ingredients for the development of new innovative tools and services.</li>
+              <li><strong >Better Governance:</strong> Openness improves governance through increased transparency and engagement.</li>
+              <li><strong>Better Culture:</strong> Openness enables greater access, sharing, and participation in cultural material and activities.</li>
+              <li><strong>Better Research:</strong> For research to function effectively and for society to reap the full benefits of research activities, research outputs should be open.</li>
+              <li><strong>Better Economy:</strong> Openness enables easier and faster reuse of material. Open data and content are the key raw ingredients for developing new, innovative tools and services.</li>
             </ul>
           </div>
         </div>
