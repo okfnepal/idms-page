@@ -144,6 +144,57 @@ export function StaticContents() {
         </div>
       </div>
 
+      {/* Recognition & Media */}
+      <div className="mx-auto w-full max-w-screen-xl pt-16 pb-20 px-8">
+        <div className="flex  items-center">
+          <span className="relative inline-block font-semibold text-3xl text-black overflow-hidden mx-auto">
+            <span className="heading-highlight font-headings">Recognition & Media</span>
+          </span>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+          <div className="flex flex-col border-teal-300 border-2 px-8 py-8 shadow-md cursor-default">
+            <img
+              src="/images/recognition/undp-governance-impact-award.png"
+              alt="UNDP Governance Impact Award certificate"
+              className="w-full border border-gray-200"
+            />
+            <div className="mt-6">
+              <h2 className="text-xl font-bold">Governance Impact Award</h2>
+              <p className="mt-4">
+                Recognized at the UNDP Civic-Tech Challenge for demonstrating strong impact in improving civic engagement, accountability, and transparency.
+              </p>
+            </div>
+          </div>
+
+          <div
+            onClick={() => window.open("https://techpana.com/2025/151264/integrated-", "_blank")}
+            className="flex flex-col justify-between border-teal-300 border-2 px-8 py-8 shadow-md hover:bg-teal-300 hover:cursor-pointer">
+            <div>
+              <h2 className="text-xl font-bold">
+                एक प्रणाली, सय सुविधा — आईडीएमएस प्रणालीले यसरी फेर्दैछ पालिकाको काम गर्ने तरिका
+              </h2>
+              <div className="mt-4 aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/bGf9y-n2qsU"
+                  title="IDMS Techpana coverage"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  onClick={(e) => e.stopPropagation()}
+                ></iframe>
+              </div>
+            </div>
+            <div className="mt-6">
+              <a href="https://techpana.com/2025/151264/integrated-" target="_blank" className="hover:text-teal-600 transition-colors duration-300">
+                <img src="/images/bend.svg" alt="bend" className="inline" />
+                <span className="inline pl-1">Read on Techpana</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Showcases */}
       <div className="bg-gray-100 h-auto">
         <div className="mt-8 showcase"></div>
