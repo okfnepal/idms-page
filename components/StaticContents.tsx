@@ -168,22 +168,22 @@ export function StaticContents() {
 
           <div
             onClick={() => window.open("https://techpana.com/2025/151264/integrated-", "_blank")}
-            className="flex flex-col justify-between border-teal-300 border-2 px-8 py-8 shadow-md hover:bg-teal-300 hover:cursor-pointer">
-            <div>
+            className="flex flex-col border-teal-300 border-2 px-8 py-8 shadow-md hover:bg-teal-300 hover:cursor-pointer">
+            <div className="aspect-video">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/bGf9y-n2qsU"
+                title="IDMS Techpana coverage"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                onClick={(e) => e.stopPropagation()}
+              ></iframe>
+            </div>
+            <div className="mt-6">
               <h2 className="text-xl font-bold">
-                एक प्रणाली, सय सुविधा — आईडीएमएस प्रणालीले यसरी फेर्दैछ पालिकाको काम गर्ने तरिका
+                One System, a Hundred Services — How IDMS Is Changing the Way Municipalities Work
               </h2>
-              <div className="mt-4 aspect-video">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/bGf9y-n2qsU"
-                  title="IDMS Techpana coverage"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  onClick={(e) => e.stopPropagation()}
-                ></iframe>
-              </div>
             </div>
             <div className="mt-6">
               <a href="https://techpana.com/2025/151264/integrated-" target="_blank" className="hover:text-teal-600 transition-colors duration-300">

@@ -8,12 +8,12 @@ const readings = [
     {
         title: "Diagnostic report: Connecting local data ecosystem",
         body: "Diagnostic of municipality data management in Nepal and Evaluating Integrated Data Management System as a solution",
-        href: "https://www.d4dnepal.org/2023/03/10/diagnostic-of-municipality-data-management-in-nepal-and-evaluating-integrated-data-management-systems-as-a-solution/"
+        href: "https://oknp.org/resources/data-unit-strengthening"
     },
     {
         title: "Policy Brief: Connecting local data ecosystem",
         body: "This brief provides a summary of the proposed solution, how it can be implemented and the challenges it faces.",
-        href: "https://www.d4dnepal.org/2023/03/09/connecting-local-data-ecosystems-policy-brief/"
+        href: "https://oknp.org/resources/connecting-local-data-ecosystems-policy-brief"
     },
     {
         title: "Supporting Local Government for informed decision making",
