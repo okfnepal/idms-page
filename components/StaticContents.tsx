@@ -182,7 +182,7 @@ export function StaticContents() {
             </div>
             <div className="mt-6">
               <h2 className="text-xl font-bold">
-                One System, a Hundred Services — How IDMS Is Changing the Way Municipalities Work
+                How IDMS Is Changing the Way Municipalities Work
               </h2>
             </div>
             <div className="mt-6">
